@@ -7,14 +7,14 @@ führt zu unklaren Abholzeiten, mangelnder Transparenz und langen Wartenzeiten f
 
 ## Untersuchungsanliegen der individuellen Themenstellungen
 
-### Markus (iOS-App & Datenbank)
+### Markus
 
 - Prüfen, wie eine native iOS-App mit Swift sinnvoll zur Darstellung und Bearbeitung fahrerbezogener Aufträge genutzt werden kann.
 - Untersuchen, wie die Synchronisation zwischen mobiler App und zentraler Datenbank (z. B. Abholzeiten, Statusmeldungen) zuverlässig und latenzarm umgesetzt werden kann.
 - Evaluieren, wie GPS-Daten der Fahrer datenschutzkonform erfasst, verarbeitet und visualisiert werden können.
 - Analysieren, wie die Datenbankstruktur aufgebaut sein muss, um skalierbar und gleichzeitig performant große Mengen an Bestellungen und Fahrerinformationen zu verwalten.
 
-### Steven (Web-App & C# Backend)
+### Steven
 
 - Untersuchen, wie Bestelldaten aus Drittquellen automatisiert ins System übernommen und mit vorhandenen Aufträgen abgeglichen werden können.
 - Analysieren, welche Algorithmen zur dynamischen Berechnung optimaler Abholzeiten auf Basis verfügbarer Fahrerdaten geeignet sind.
@@ -28,68 +28,40 @@ Ziel ist die Entwicklung einer Dispositionsplattform zur automatisierten Koordin
 
 ## Geplantes Ergebnis der individuellen Themenstellungen
 
-(Maximal 400 Zeichen.)
+### Markus
 
-Aus _Leowiki_:
+- Eine native iOS-App zur Anzeige und Bearbeitung von Fahreraufträgen inkl. Tourverlauf.
+- Eine zentral angebundene Datenbankstruktur für mobile Statusupdates und GPS-Daten.
+- Datenschutzkonforme Integration von GPS-Tracking zur Tourdokumentation.
 
-> Hier die jeweiligen Ergebnisse der einzelnen KandidatInnen auflisten. Dabei können die Ergebnisse durchaus von den Untersuchungsanliegen abgeleitet werden. Beispielsweise wird aus „Untersuchen, wie ein benutzerfreundliches UI…“ sicherlich das Ergebnis „Ein benutzerfreundliches UI …“ abgeleitet werden können. Dies ist aber nicht zwingend bei jedem Ergebnis der Fall.
+### Steven
 
-> Zusätzlich muss hier noch eine Kostenschätzung (nicht aufgeschlüsselt, sondern nur die Gesamtsumme und die wichtigsten ein bis zwei Kostenpunkte) dokumentiert werden. Wording: Maximale Kosten: xxxxx € für Raspberry Pi 4. Bei keinen zu erwartenden Kosten ist „Keine zu erwartenden Kosten“ zu dokumentieren.
-
-Wie beschrieben, ist das Umformulieren der Untersuchungsanliegen eine billige Strategie - beachtet aber das Zeichenlimit (400 statt 800!). Auch hier gilt der Punkt bzgl. dem Aufteilen von gleichen Themen durch cleveres Formulieren.
-
-Beispiel:
-
-> Fr. Musterfrau:
-
-> Eine GUI über die die Abfrage der Messdaten konfiguriert und durchgeführt werden kann.
-
-> Eine Vorverarbeitungs-Pipeline in Python mit der die Messdaten für das Trainieren eines Modells und die Vorhersage vorbereitet werden.
-
-> Eine ausführliche Evaluierung des trainierten Modells mit sinnvollen Metriken und realistischen Daten.
-
-> Hr. Kowalski:
-
-> Modellierung einer Datenbank zur Speicherung der Messdaten.
-
-> Experimenteller Einsatz verschiedener ML-Algorithmen in einem Jupyter Notebook und abschließende Bereitstellung als Web Service.
-
-> Implementierung eines konfigurierbaren Benachrichtigungs-Systems, das Verantwortliche bzw. Abteilungen über bevorstehende Wartungen informiert.
+- Eine Web-App zur Visualisierung und Verwaltung aller Bestellungen und Fahrer.
+- Backend-Logik zur automatisierten Abholzeitberechnung auf Basis von Fahrerdaten.
+- Schnittstelle zum Import externer Bestelldaten (z. B. POS-Systeme).
 
 ## Meilensteine
 
-Aus _Leowiki_:
+### Markus
 
-> 1. Die Meilensteine sollen sich auf das Projekt beziehen und nicht auf die Dokumentation (aka schriftliche Arbeit).
-> 2. Es sollen mindestens 5 bis 7 Milestones und das jeweils zugehörige Datum angegeben werden.
-> 3. Milestones sind in Form einer Aussage formuliert, deren Gültigkeit man überprüfen kann. Bsp: "Die Datenschnittstelle in Richtung Anlagensteuerung ist implementiert und getestet" (gut). "Implementieren der Datenschnittstelle" (schlecht!)
-> 4. Die Abgabe der Diplomarbeit zum Abgabetermin ist kein Meilenstein, der in der Datenbank dokumentiert werden darf.
-> 5. Die KandidatInnen sollen sich in diesem Punkt schon soweit mit dem Thema auseinandergesetzt haben, dass sie sinnvolle Angaben zum Projekt machen können.
+- Die Datenbankstruktur zur Verwaltung von Fahrer- und Auftragsdaten ist erstellt und funktionsfähig. (15.07.2025)
+- Die mobile App kann Bestellungen anzeigen und mit der zentralen Datenbank synchronisieren. (29.07.2025)
+- GPS-Daten werden datenschutzkonform erfasst und in der Datenbank gespeichert. (12.08.2025)
+- Die App stellt geplante Abhol- und Lieferzeiten samt Tourverlauf dar. (26.08.2025)
+- Fahrer können Statusänderungen (z. B. „Abgeholt“, „Zugestellt“) mobil dokumentieren. (09.09.2025)
+- Die App funktioniert stabil auf aktuellen iOS-Geräten und wurde erfolgreich getestet. (23.09.2025)
+- Die Kommunikation zwischen App und Server ist verschlüsselt und stabil. (07.10.2025)
 
-Beachtet hier, dass ein Datum angegeben werden muss, obwohl auf der Plattform _Der Abgabetermin muss nicht angeführt werden._ steht. Ansonsten sollen wie gesagt _nur projektrelevante_ Meilensteine eingetragen werden, _keine_ Angaben zur Diplomarbeit wie z.B. _Kapitel 3 fertig_.
+### Steven
 
-Beispiel:
-
-> 1. Die Messdaten können über die GUI abgefragt und in einer Datenbank gespeichert werden.
-> 2. Die Daten wurden vorverarbeitet und ein erstes Modell wurde trainiert.
-> 3. Ein Web-Service wurde vorbereitet, mit dem ein Modell für Vorhersagen genutzt werden kann.
-> 4. Das Modell wurde umfangreich evaluiert und durch Anpassung der Hyperparameter und Vorverarbeitung optimiert.
-> 5. Ein Benachrichtigungs-System wurde implementiert und getestet.
+- Die Web-App zeigt alle offenen und laufenden Bestellungen übersichtlich an. (15.07.2025)
+- Die Schnittstelle zum Import externer Bestellungen (z. B. POS-System) ist implementiert. (29.07.2025)
+- Die automatische Berechnung optimaler Abholzeiten wurde erfolgreich umgesetzt. (12.08.2025)
+- Eine Live-Kartenansicht zur Anzeige der Fahrerpositionen wurde integriert. (26.08.2025)
+- Das Backend verarbeitet Statusmeldungen der Fahrer korrekt und in Echtzeit. (09.09.2025)
+- Die Benutzeroberfläche für Disponenten wurde auf Usability getestet und angepasst. (23.09.2025)
+- Das Gesamtsystem wurde unter realistischen Bedingungen getestet und optimiert. (07.10.2025)
 
 # Individuelle Themenstellungen der Kandidatin/des Kandidaten
 
 Hier müssen die ProjektmitarbeiterInnen eingetragen werden. Bei _Individuelle Themenstellung_ kann man ganz pragmatisch _Siehe "Untersuchungsanliegen der individuellen Themenstellungen"._ hinschreiben. Bei _Arbeitsaufwand_ ist 180 Stunden ein guter Richtwert.
-
-# Mögliche Kooperationspartner/innen bzw. Auftraggeber/innen
-
-Der Punkt ist recht klein und wird leicht übersehen - hier gehören die Daten der Partnerfirma inkl. einer Ansprechpartnerin/eines Ansprechpartners hin.
-
-## Rechtliche Regelung
-
-Ich lasse hier folgenden Standard-Text verwenden - sollte in den meisten Fällen für euch ebenfalls zutreffend sein:
-
-> Es wurde mündlich vereinbart, dass sowohl Code als auch Ergebnisse den ProfessorInnen demonstriert werden dürfen. Sämtliche potentiell firmenkritischen Daten und Bilder werden bei der Einbindung in die Diplomarbeit entsprechend unkenntlich gemacht.
-
-Sollte eure Partnerfirma nach einer _Sperre_ der Diplomarbeit fragen, könnt ihr folgende Informationen aus dem _Leowiki_ kommunizieren:
-
-> Physische Diplomarbeiten (das ausgedruckte Werk) sind bei uns nicht öffentlich zugänglich. Die DA-Betreuer*innen müssen natürlich das Recht haben, die Arbeit zu lesen und auch den Source-Code einzusehen. Im Rahmen der Reife- und Diplomprüfung liegt bei der Präsentation und Diskussion der DA die schriftliche Arbeit (nicht der Source Code) als Tischexemplar auf und kommt anschließend bei uns an der Schule ins Archiv, welches nur über den Abteilungsvorstand oder den Schulleiter zugänglich ist.
