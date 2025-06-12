@@ -64,4 +64,12 @@ Ziel ist die Entwicklung einer Dispositionsplattform zur automatisierten Koordin
 
 # Individuelle Themenstellungen der Kandidatin/des Kandidaten
 
-Hier müssen die ProjektmitarbeiterInnen eingetragen werden. Bei _Individuelle Themenstellung_ kann man ganz pragmatisch _Siehe "Untersuchungsanliegen der individuellen Themenstellungen"._ hinschreiben. Bei _Arbeitsaufwand_ ist 180 Stunden ein guter Richtwert.
+## Markus Schoder
+
+**Individuelle Themenstellung:** Siehe „Untersuchungsanliegen der individuellen Themenstellungen“  
+**Arbeitsaufwand:** 180 Stunden  
+
+## Steven Ou
+
+**Individuelle Themenstellung:** Siehe „Untersuchungsanliegen der individuellen Themenstellungen“  
+**Arbeitsaufwand:** 180 Stunden  
