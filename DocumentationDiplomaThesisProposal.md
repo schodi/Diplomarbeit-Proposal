@@ -2,69 +2,29 @@
 
 ## Ausgangslage
 
-(Maximal 400 Zeichen.)
-
-Aus _Leowiki_:
-
-> Die Ausgangssituation. So wie in den Ausgangslagen in SYP/ITP zu schreiben. Keine Beschreibung von wünschenswerten Features, höchstens in der Form von fehlenden Features.
-
-In dieses Feld kommt also die Beschreibung der Ausgangsbasis und Problemsituation, durch die es zu diesem _DA_-Projekt gekommen ist. Wird die Diplomarbeit gemeinsam mit einer Firma geschrieben, kann natürlich auch der (relevante) Aufgabenbereich des Unternehmens/der Abteilung beschrieben werden.
-
-Beispiel:
-
-> Die Firma Leo-Industries verwendet Prüfmaschinen zur automatisierten Begutachtung der produzierten Erzeugnisse. Derzeit ist es noch nicht möglich eine anstehende, notwendige Wartung dieser Maschinen automatisch zu erkennen und die jeweils zuständige Person bzw. Abteilung darüber in Kenntnis zu setzen. Dies wäre jedoch von großem Vorteil, da dadurch Ausfälle - und dadurch sowohl Wartezeiten als auch Kosten - minimiert werden könnten.
+Viele Restaurants und Lieferdienste koordinieren ihre Bestellungen derzeit manuell oder mit unflexiblen Sysmten. Dies
+führt zu unklaren Abholzeiten, mangelnder Transparenz und langen Wartenzeiten für den Kunden, als auch für das Personal in den Betrieben und die Lieferfahrer. Besonders in Stoßzeiten kommt es dadurch zu organisatorischen Engpässen.
 
 ## Untersuchungsanliegen der individuellen Themenstellungen
 
-(Maximal 800 Zeichen.)
+### Markus (iOS-App & Datenbank)
 
-Aus _Leowiki_:
+- Prüfen, wie eine native iOS-App mit Swift sinnvoll zur Darstellung und Bearbeitung fahrerbezogener Aufträge genutzt werden kann.
+- Untersuchen, wie die Synchronisation zwischen mobiler App und zentraler Datenbank (z. B. Abholzeiten, Statusmeldungen) zuverlässig und latenzarm umgesetzt werden kann.
+- Evaluieren, wie GPS-Daten der Fahrer datenschutzkonform erfasst, verarbeitet und visualisiert werden können.
+- Analysieren, wie die Datenbankstruktur aufgebaut sein muss, um skalierbar und gleichzeitig performant große Mengen an Bestellungen und Fahrerinformationen zu verwalten.
 
-> Die Untersuchungsanliegen sollen nach KandidatInnen getrennt aufgelistet sein Es sind eben Dinge zu untersuchen, also auch so formulieren; keine Ziele, oder zu erwartende (Teil-)Artefakte
+### Steven (Web-App & C# Backend)
 
-> Beispiele:
+- Untersuchen, wie Bestelldaten aus Drittquellen automatisiert ins System übernommen und mit vorhandenen Aufträgen abgeglichen werden können.
+- Analysieren, welche Algorithmen zur dynamischen Berechnung optimaler Abholzeiten auf Basis verfügbarer Fahrerdaten geeignet sind.
+- Evaluieren, wie in der Web-App eine verständliche, übersichtliche Darstellung aller Aufträge und Fahrerstandorte realisiert werden kann.
+- Prüfen, welche Sicherheitsmechanismen im Backend notwendig sind, um DSGVO-konforme Datenverarbeitung (v. a. bei Standort- und Kundeninformationen) zu gewährleisten.
 
-> * Evaluieren, welche NN-Architekturen für die Erkennung gewinnversprechender Aktienkurs-Muster möglich sind
-
-> * Prüfen, ob für die Erstellung einer mobilen Audio-Guide-App Ionic sinnvoll verwendet werden kann.
-
-> * Untersuchen, wie ein benutzerfreundliches UI für die Anwendung … aussehen soll
-
-> Das zieht auch eine gewisse Methodik nach sich. Beispielsweise beim UI: Dass nicht nur irgendein UI hingerotzt werden soll, sondern auch mit den potentiellen AnwenderInnen Usability-Tests gemacht werden sollen, etc.
-
-Wie der Name schon sagt, geht es um _Untersuchungs_-Anliegen - somit dienen die Beispielsätze (und -Wörter wie _Prüfen_, _Untersuchen_...) aus dem _Leowiki_ als gute Grundlage.
-
-Mir ist absolut klar, dass nur wenige Themen klar zwischen den Team-Mitgliedern aufgetrennt werden können - wie beispielsweise _UI_ und _Backend_, wo es meist klare Präferenzen und Stärken der Team-Mitglieder gibt. Punkte ohne klare Trennung könnt ihr ja von verschiedenen Blickwinkeln beleuchten, wie mein Beispiel unterhalb zeigt - die jeweils ersten zwei Punkte behandeln das gleiche Thema. Arbeiten würdet ihr (inoffiziell) natürlich gemeinsam dran.
-
-Beispiel:
-
-> Fr. Musterfrau:
-
-> Recherchieren, wie die Messdaten verschiedener Maschinen über die Schnittstelle (Beckhoff ADS) einheitlich und Nutzer-freundlich abgefragt werden können.
-
-> Analysieren, welche Vorverarbeitungsschritte nötig sind, um die Messdaten für einen Machine Learning-Algorithmus nutzbar zu machen.
-
-> Evaluieren, mit welchen Metriken die Leistung eines ML-Modells bestimmt werden kann und wie diese weiter verbessert werden kann.
-
-> Hr. Kowalski:
-
-> Analysieren, welche Messdaten abgefragt und wie diese für das Ablegen in einer Datenbank modelliert werden können.
-
-> Prüfen, welche Machine Learning-Algorithmen für die Vorhersage von Wartungen geeignet sind.
-
-> Eruieren, bei welchen Kriterien und auf welche Weise eine potentiell notwendige Wartung signalisiert werden kann.
 
 ## Zielsetzung
 
-(Maximal 400 Zeichen.)
-
-Aus _Leowiki_:
-
-> Das globale Ziel der gesamten Arbeit. Hier darf auch auf den Kunden-Nutzen eingegangen werden. Wenn relevant auch wirtschaftlicher Nutzen der Anwendung
-
-Beispiel:
-
-> Ziel ist ein Softwareprodukt, welches unterstützend Mess- und Produktionsprozesse auf möglicherweise notwendige Wartungen überprüft, und bei Auffälligkeiten zuständige Personen oder Abteilungen benachrichtigt. Durch diese vorbeugende Wartung sollen Ausfälle und somit Wartezeiten und Kosten minimiert werden.
+Ziel ist die Entwicklung einer Dispositionsplattform zur automatisierten Koordination von Bestellungen und Fahrern in der Gastronomie-Logistik. Durch optimierte Abholzeitberechnung, mobile Anbindung und zentrale Übersicht sollen Wartezeiten reduziert, Abläufe effizienter gestaltet und die Kundenzufriedenheit gesteigert werden.
 
 ## Geplantes Ergebnis der individuellen Themenstellungen
 
