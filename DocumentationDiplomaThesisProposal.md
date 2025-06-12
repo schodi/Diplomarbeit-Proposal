@@ -1,4 +1,3 @@
-# Leitfaden _Diplomarbeits-DB_
 
 ## Ausgangslage
 
