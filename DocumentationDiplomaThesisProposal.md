@@ -2,7 +2,7 @@
 ## Ausgangslage
 
 Viele Restaurants und Lieferdienste koordinieren ihre Bestellungen derzeit manuell oder mit unflexiblen Systemen. Dies
-führt zu unklaren Abholzeiten, mangelnder Transparenz und langen Wartenzeiten für den Kunden, als auch für das Personal in den Betrieben und dem Lieferanten. Besonders in Stoßzeiten kommt es dadurch zu organisatorischen Engpässen.
+führt zu unklaren Abholzeiten, mangelnder Transparenz und langen Wartezeiten für den Kunden, als auch für das Personal in den Betrieben und dem Lieferanten. Besonders in Stoßzeiten kommt es dadurch zu organisatorischen Engpässen.
 
 ## Untersuchungsanliegen der individuellen Themenstellungen
 
