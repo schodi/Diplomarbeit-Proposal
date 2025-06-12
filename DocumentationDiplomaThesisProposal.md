@@ -62,14 +62,14 @@ Ziel ist die Entwicklung einer Dispositionsplattform zur automatisierten Koordin
 - Die Benutzeroberfläche für Disponenten wurde auf Usability getestet und angepasst. (23.09.2025)
 - Das Gesamtsystem wurde unter realistischen Bedingungen getestet und optimiert. (07.10.2025)
 
-# Individuelle Themenstellungen der Kandidatin/des Kandidaten
+## Individuelle Themenstellungen der Kandidatin/des Kandidaten
 
-## Markus Schoder
+### Markus Schoder
 
 **Individuelle Themenstellung:** Siehe „Untersuchungsanliegen der individuellen Themenstellungen“  
 **Arbeitsaufwand:** 180 Stunden  
 
-## Steven Ou
+### Steven Ou
 
 **Individuelle Themenstellung:** Siehe „Untersuchungsanliegen der individuellen Themenstellungen“  
 **Arbeitsaufwand:** 180 Stunden  
